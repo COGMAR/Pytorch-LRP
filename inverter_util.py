@@ -12,7 +12,7 @@ def module_tracker(fwd_hook_func):
         fwd_hook_func: Forward hook function to be wrapped.
 
     Returns:
-        Wrapped method.
+        Wrapped method  .
 
     """
     def hook_wrapper(relevance_propagator_instance, layer, *args):
